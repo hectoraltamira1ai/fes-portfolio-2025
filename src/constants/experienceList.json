@@ -1,23 +1,26 @@
 [
   {
-    "company": "Canva",
-    "role": "Software Engineer",
+    "company": "Skinstric AI",
+    "role": "Frontend Engineer",
     "resps": [
-      "Developing new innovative features across the video product which leads to more users choosing the video Canva product",
-      "Using React, TypeScript and MobX to engineer a frontend codebase using industry best practises",
-      "Writing extremely clean and reusable code by making effective use of dependency injection, code isolation, local reasoning, clean module boundaries, fast development cycles, tests, deterministic behaviour and type safety"
+      "Designing and developing a cutting-edge skin analysis platform using Next.js 14, incorporating advanced AI features with the OpenAI Vision API to ensure accurate and reliable results.",
+      "Creating and maintaining an interactive user interface that delivers personalized skincare recommendations to improve user satisfaction and experience.",
+      "Optimizing performance by implementing Next.js Server Components to provide fast and seamless analysis functionality.",
+      "Developing custom animations with GSAP to visualize skin analysis results, offering a dynamic and engaging user experience."
     ],
-    "date": "Dec 2020 - Current"
+    "date": "Nov 2024 - Feb 2025"
   },
   {
-    "company": "Loopit",
-    "role": "Software Engineer",
+    "company": "Frontend Simplified",
+    "role": "Frontend Web Developer",
     "resps": [
-      "Developed the Loopit main software and customer facing widget using Vue and Vuex state management",
-      "Worked with UX designers and backend engineers in order to maintain and upgrade a high quality software that is used by car dealerships and consumers internationally",
-      "Transformed UI/UX wireframes into responsive HTML and CSS (Sass/BEM)",
-      "Ran end-to-end tests using Cypress unit tests and regression testing"
+      "Developing responsive web applications by leveraging technical expertise in frontend development to create user-friendly and visually",
+      "Launching high-performance websites with optimized SEO and responsive design, ensuring excellent user experiences and strong technical performance.",
+      "Optimizing page load times with advanced caching and lazy loading techniques to deliver faster and more efficient web applications.",
+      "Enhancing e-commerce platforms by implementing advanced filtering systems to reduce cart abandonment and improve the shopping experience.",
+      "Transforming static pages into interactive interfaces using advanced animations and transitions to create engaging user experiences.",
+      "Improving user experience through API integration, incorporating skeleton loading, pagination, and dynamic routing for smoother navigation and functionality."
     ],
-    "date": "Jul 2020 - Dec 2020"
+    "date": "Apr 2024 - Oct 2024"
   }
 ]

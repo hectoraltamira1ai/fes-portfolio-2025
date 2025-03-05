@@ -69,19 +69,19 @@ export default function Header() {
 
       <motion.div initial="hidden" animate={controls} variants={blurVariants} transition={{ duration: 1, delay: 0.5 }} className="header--top">
         <h3>
-          <a href="/" target={"_blank"} rel="noopener noreferrer">
+          <a href="https://github.com/hectoraltamira1ai" target={"_blank"} rel="noopener noreferrer">
             <ScrambleText shuffle delay={0.5}>
               GITHUB
             </ScrambleText>
           </a>
           <span className="header--hash">{"//"}</span>
-          <a href="/" target={"_blank"} rel="noopener noreferrer">
+          <a href="https://www.linkedin.com/in/hector-altamira-7b424427a/" target={"_blank"} rel="noopener noreferrer">
             <ScrambleText shuffle delay={1}>
               LINKEDIN
             </ScrambleText>
           </a>
           <span className="header--hash">{"//"}</span>
-          <a href="/" target={"_blank"} rel="noopener noreferrer">
+          <a href="/src/assets/HectorAltamiraResume2025Final.docx.pdf" target={"_blank"} rel="noopener noreferrer">
             <ScrambleText shuffle delay={1.5}>
               RESUME
             </ScrambleText>
@@ -99,7 +99,7 @@ export default function Header() {
           </h3>
           <p className="theme--detail">
             <ScrambleText shuffle delay={4}>
-              HI!!! I’m David, I tackle complex engineering challenges daily, alongside a team of elite software engineers. My mission is to continuously advance in web development, using my growing expertise to drive societal progress through technology.
+              HI!!! I’m Hector, I tackle complex engineering challenges daily. I thrive on solving complex challenges and transforming designs into dynamic, user-friendly interfaces to drive innovation.
             </ScrambleText>
           </p>
         </div>
@@ -130,7 +130,7 @@ export default function Header() {
       </motion.div>
 
       <h1 className="header--name">
-        <TextWriting controls={controls} text={"David Bragg"} noblink />
+        <TextWriting controls={controls} text={"Hector Altamira"} noblink />
         <br />
         <TextWriting controls={controls} delay={1.65} text={"Frontend"} noblink />{" "}
         <motion.div initial="hidden" animate={controls} variants={nameVariants} className="header--name--sec">

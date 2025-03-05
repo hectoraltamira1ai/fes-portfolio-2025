@@ -64,18 +64,18 @@ export default function About() {
 
         <motion.div initial="hidden" animate={controls} variants={opacityVariant} transition={{ duration: 1, delay: 2 }} onAnimationComplete={() => handleComplete()} className="about--detail">
           <p className="theme--detail--dark">
-            <ScrambleText delay={2}>Currently employed as a software engineer at Canva, I work on extremely difficult engineering problems every day in a team consisting of some of the most talented and experienced software engineers. Continuously working towards improving my knowledge and skills to develop technologies that contribute to the betterment of society.</ScrambleText>
+            <ScrambleText delay={2}>A motivated and skilled frontend developer with hands-on experience in crafting interactive, responsive, and user-friendly web applications. Proficient in modern technologies such as React, TypeScript, Firebase, and Next.js, Leveraging expertise in modern web stack to deliver high-performance applications with 90+ Lighthouse scores.</ScrambleText>
           </p>
         </motion.div>
 
         <motion.div initial="hidden" animate={controls} variants={positionVariant} className="about--marquee">
           <h1 draggable="false">
             <InteractiveMarquee wheelFactor={0} speed={1.3}>
-              <span>ABOUT David Bragg</span>
-              <span>ABOUT David Bragg</span>
-              <span>ABOUT David Bragg</span>
-              <span>ABOUT David Bragg</span>
-              <span>ABOUT David Bragg</span>
+              <span>ABOUT HECTOR ALTAMIRA</span>
+              <span>ABOUT HECTOR ALTAMIRA</span>
+              <span>ABOUT HECTOR ALTAMIRA</span>
+              <span>ABOUT HECTOR ALTAMIRA</span>
+              <span>ABOUT HECTOR ALTAMIRA</span>
             </InteractiveMarquee>
           </h1>
         </motion.div>

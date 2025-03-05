@@ -56,26 +56,26 @@ export default function Resume() {
       <div className="resume--grid">
         <div className="resume--grid--detail">
           <div className="resume--grid--detail--pic">
-            <img src={ProfilePic} alt="" />
+            <img src={ProfilePic} alt="" className="circle-image" />
           </div>
           <div className="resume--grid--detail--data">
             <div className="resume--grid--detail--data--name">
               <h2>
-                <ParaWriting stagger={0.08} text={"David Bragg"} />
+                <ParaWriting stagger={0.08} text={"Hector Altamira"} />
               </h2>
               <h4>
                 <ScrambleText shuffle delay={0}>
-                  Software Engineer
+                  Frontend Software Engineer
                 </ScrambleText>
               </h4>
               <motion.div initial="hidden" animate={controls} variants={blurVariants} transition={{ duration: 1, delay: 0.5 }} onAnimationComplete={() => handleComplete()} className="resume--grid--detail--data--name--icons">
-                <a href="" target="_blank" rel="noreferrer">
+                <a href="https://github.com/hectoraltamira1ai" target="_blank" rel="noreferrer">
                   <Icon img={githubIcon} />
                 </a>
-                <a href="" target="_blank" rel="noreferrer">
+                <a href="https://www.linkedin.com/in/hector-altamira-7b424427a/" target="_blank" rel="noreferrer">
                   <Icon img={linkedinIcon} />
                 </a>
-                <a href="" target="_blank" rel="noreferrer">
+                <a href="/src/assets/HectorAltamiraResume2025Final.docx.pdf" target="_blank" rel="noreferrer">
                   <Icon img={fileIcon} />
                 </a>
               </motion.div>
@@ -108,7 +108,7 @@ export default function Resume() {
         <div className="resume--grid--experience">
           <div className="resume--grid--experience--head">
             <p className="theme--detail">
-              <ScrambleText delay={0}>A highly motivated software engineer prepared to utilise exceptional software, problem-solving and communication skills to further my programming passion as a website developer.</ScrambleText>
+              <ScrambleText delay={0}>I am a highly motivated software engineer eager to apply my strong software development expertise, problem-solving abilities, and effective communication skills to pursue my passion for programming. With a particular interest in website development, I am committed to creating innovative and user-friendly solutions while continuously growing my technical knowledge and contributing meaningfully to impactful projects.</ScrambleText>
             </p>
 
             <motion.h3 initial="hidden" animate={controls} variants={opacityVariant} transition={{ duration: 1, delay: 0.5 }} className="theme--text">

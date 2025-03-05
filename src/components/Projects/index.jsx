@@ -29,25 +29,25 @@ export default function Projects() {
 
   const works = [
     {
-      client: "client name",
-      year: "2023",
+      client: "OnLine Library Platform",
+      year: "2024",
       img: work1,
-      title: "Revamping Global Lifestyle Brand.",
-      detail: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      title: "A digital library platform for book lovers.",
+      detail: "OnLine Library Platform is a web application that allows users to search, purchase, and manage books online. It features a user-friendly interface, advanced search capabilities, and secure purchasing system.",
     },
     {
-      client: "client name",
-      year: "2023",
+      client: "NFT Marketplace",
+      year: "2024",
       img: work2,
-      title: "Next generation Web Management System.",
-      detail: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      title: "An NFT marketplace for digital art.",
+      detail: "Transformed a completely static website into a dynamic, interactive platform using React.js and Next.js. Implemented responsive design principles to ensure optimal user experience across all devices.",
     },
     {
-      client: "client name",
-      year: "2023",
+      client: "Summarist",
+      year: "2024",
       img: work3,
-      title: "Share your Life Stories. Generationally.",
-      detail: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      title: "A place to read or listen to bestsellers books.",
+      detail: "Summarist, an Advanced Intership Project is  the development of a bootk library app using Next.js, Typescript and Firebase with a responsive UI."
     },
   ]
 
@@ -96,7 +96,7 @@ export default function Projects() {
 
         <motion.div initial="hidden" animate={controls} variants={opacityVariant} transition={{ duration: 1, delay: 1 }} onAnimationComplete={() => handleComplete()} className="projects--grid--detail">
           <p className="theme--detail">
-            <ScrambleText delay={1}>Discover a curated portfolio of projects where each line of code tells a story of problem-solving, creativity, and technical finesse.</ScrambleText>
+            <ScrambleText delay={1}>Explore a dynamic portfolio of projects where modern frontend development practices come to life, showcasing creativity, innovative problem-solving, and technical expertise in every line of code.</ScrambleText>
           </p>
         </motion.div>
       </div>

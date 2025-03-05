@@ -1,3 +1,4 @@
+
 .resume {
   min-height: 100vh;
   padding: 60px 102px;
@@ -109,6 +110,26 @@
   padding-top: 50px;
 }
 
+@media (min-width: 768px) {
+  /* Styles for screens 768px or greater */
+  .circle-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 5%;
+    animation: circleEffect 2s infinite alternate; /* Infinite animation */
+  }
+  
+  @keyframes circleEffect {
+    0% {
+      border-radius: 45%; /* Start as a square */
+    }
+    100% {
+      border-radius: 50%; /* End as a circle */
+    }
+  }
+}
+
+
 @media (max-width: 1500px) {
   .resume {
     padding: 40px 60px;
@@ -150,8 +171,8 @@
     gap: 30px;
   }
 
-  .resume--grid--experience--head {
-    flex-direction: column-reverse;
-    gap: 30px;
+    .resume--grid--experience--head {
+      flex-direction: column-reverse;
+      gap: 30px;
+    }
   }
-}

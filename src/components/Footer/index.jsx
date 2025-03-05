@@ -22,9 +22,9 @@ export default function Footer() {
   const [sendStatus, setSendStatus] = useState({ processed: false, message: "", variant: "success" })
   const [hasAnimated, setHasAnimated] = useState(false)
   const [fieldValues, setFieldValues] = useState({
-    name: false,
-    email: false,
-    message: false,
+    name: "",
+    email: "",
+    message: "",
   })
 
   const handleComplete = () => {
@@ -76,10 +76,11 @@ export default function Footer() {
     },
   ]
 
-  const handleInputClick = (stateKey) => {
+  const handleInputChange = (e) => {
+    const { id, value } = e.target
     setFieldValues({
       ...fieldValues,
-      [stateKey]: true,
+      [id]: value,
     })
   }
 
@@ -144,7 +145,11 @@ export default function Footer() {
           {inputFields.map((field, index) => (
             <motion.div key={index} initial="hidden" animate={controls} variants={opacityVariant} transition={{ duration: 1, delay: 0.5 * (index + 1) }} className="input--div">
               <label htmlFor={field.id}>{field.label}</label>
-              {field.type === "textarea" ? <textarea name={field.id} id={field.id} placeholder={field.placeholder} rows={field.rows} wrap={field.wrap} onClick={() => handleInputClick(field.stateKey)}></textarea> : <input type={field.type} name={field.id} id={field.id} placeholder={field.placeholder} onClick={() => handleInputClick(field.stateKey)} />}
+              {field.type === "textarea" ? (
+                <textarea name={field.id} id={field.id} placeholder={field.placeholder} rows={field.rows} wrap={field.wrap} onChange={handleInputChange}></textarea>
+              ) : (
+                <input type={field.type} name={field.id} id={field.id} placeholder={field.placeholder} onChange={handleInputChange} />
+              )}
               <motion.div
                 initial="hidden"
                 animate={controls}
@@ -177,7 +182,7 @@ export default function Footer() {
       </div>
 
       <motion.div initial="hidden" animate={controls} variants={opacityVariant} transition={{ duration: 1, delay: 2.5 }} className="footer--bottom" onAnimationComplete={() => handleComplete()}>
-        <p>Copyright © {new Date().getFullYear()} Zen Farhat</p>
+        <p>Copyright © {new Date().getFullYear()} Hector Altamira</p>
         <p>
           <Time delay={3} />
         </p>
