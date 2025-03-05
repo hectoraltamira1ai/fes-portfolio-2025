@@ -75,7 +75,7 @@ export default function Resume() {
                 <a href="https://www.linkedin.com/in/hector-altamira-7b424427a/" target="_blank" rel="noreferrer">
                   <Icon img={linkedinIcon} />
                 </a>
-                <a href="/src/assets/HectorAltamiraResume2025Final.docx.pdf" target="_blank" rel="noreferrer">
+                <a href="https://github.com/hectoraltamira1ai/resume2025" target="_blank" rel="noreferrer">
                   <Icon img={fileIcon} />
                 </a>
               </motion.div>
